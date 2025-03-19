@@ -43,7 +43,7 @@
             v-for="month in 840" 
             :key="month"
             :class="[
-              'w-3 h-3 rounded-sm',
+              'w-2 h-2 lg:w-3 lg:h-3 rounded-sm',
               month <= (age * 12) ? 'bg-white' : 'bg-gray-800',
               month === 840 ? 'bg-red-400' : 'bg-gray-800',
               month === 1 ? 'bg-green-400' : 'bg-gray-800',
